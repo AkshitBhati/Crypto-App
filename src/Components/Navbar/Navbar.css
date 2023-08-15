@@ -1,0 +1,50 @@
+header{
+    display: flex;
+    padding: 15px;
+    background-color: #fff;
+    border-radius:0px 0px 10px 10px ;
+    justify-content: space-around;
+    position: sticky;
+    color: #001F3F;
+}   
+.nav__name{
+    font-family:Dosis ;
+}
+.nav__menuItems{
+    display: flex;
+    padding: 10px;
+    
+}
+.nav__login{
+    padding:8px 10px 8px 10px ;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 5px;
+    background-color: #001F3F;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius:3px ;
+}
+.nav__dashboard{
+    transform: translate(10%, 15%);
+    cursor: pointer;
+}
+
+
+@media (max-width:55em){
+    header{
+        padding: 8px;
+    }
+    .nav__name{
+        font-size: 12px;
+        transform: translate(0%, 10%)
+    }
+    .nav__login{
+        
+        font-size: 12px;
+        margin-right: 2px;
+    }
+
+}

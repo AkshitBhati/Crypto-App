@@ -1,0 +1,9 @@
+.banner{
+    border: 1px solid black;
+    width: 100%;
+}
+.banner__img{
+    object-fit: cover;
+    
+    
+}

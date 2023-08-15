@@ -1,39 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: #001F3F;
 }
-.nav__heading{
-    font-size: 25px;
-    font-family: Dosis;
-    margin-left: 15px;
-}
-.coin__wrapper{
-    overflow-x: scroll;
-    width: 100%;
-}
-.coin__data{
-    width: 100%;
-    margin: 10px;
-}
 
-/* Hide the scrollbar */
-::-webkit-scrollbar {
-    width: 0.5em; /* Set a width to trigger the pseudo-element */
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background-color: transparent; /* Make the thumb transparent */
-  }
-  
-  ::-webkit-scrollbar-track {
-    background-color: transparent; /* Make the track transparent */
-  }
-  
-@media (max-width:55em){
-    .coin__data{
-        width: 100%;
-    }
-}
+
