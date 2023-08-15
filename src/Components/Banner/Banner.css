@@ -8,4 +8,22 @@
 .banner__img{
     width: inherit; 
     height: inherit;
+    position: relative;
+}
+.banner__name{
+    color: #fff;
+    position: absolute;
+    top:38%;
+    left: 32%;
+    font-size: 40px;
+    font-family:Caprasimo;
+}
+
+
+@media (max-width:55em){
+    .banner__name{
+        font-size: 25px;
+        left: 20%;
+        
+    }
 }
