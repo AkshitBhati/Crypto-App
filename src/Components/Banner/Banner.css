@@ -13,17 +13,18 @@
 .banner__name{
     color: #fff;
     position: absolute;
-    top:38%;
-    left: 32%;
-    font-size: 40px;
-    font-family:Caprasimo;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family:Titillium Web;
 }
 
 
 @media (max-width:55em){
     .banner__name{
-        font-size: 25px;
-        left: 20%;
+        font-size: 20px;
+        
         
     }
 }
