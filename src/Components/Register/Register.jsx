@@ -1,15 +1,32 @@
-import React from 'react'
-import "./Register.css"
+import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { auth } from '../../Config' 
+import { createUserWithEmailAndPassword } from 'firebase/auth'
+import "./Register.css"
 
 const Register = () => {
+  //USE STATE FOR STATE MANAGEMENT
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
+    const [err, setErr] = useState('')
+    const [user, setUser] = useState([])
 
 
    //Creating route for navigating
    const navigate = useNavigate()
-   const registerHandler = () => {
+   const loginHandler = () => {
        navigate("/login")
    }
+
+   //FUNCTION FOR REGISTERING USER
+
+   const registerUser = () => {
+    if(name === "" || email === "" || password === ""){
+      
+    }
+   }
+
 
  return (
    <div className='register'>
@@ -21,10 +38,10 @@ const Register = () => {
            <input type="email" placeholder='Enter Email'/>
            <label >Password</label>
            <input type="password" placeholder='Enter Password'/>
-           <p className='register__msg' onClick={registerHandler}>Have an account?Login?</p>
+           <p className='register__msg' onClick={loginHandler}>Have an account?Login?</p>
        </form>
        <div className='register__btn--container'>
-       <button className='register__btn'>Submit</button>
+       <button className='register__btn' onClick={registerUser}>Submit</button>
        </div>
       
    </div>
