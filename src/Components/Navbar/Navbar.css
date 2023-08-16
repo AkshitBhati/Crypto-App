@@ -9,6 +9,7 @@ header{
 }   
 .nav__name{
     font-family:Titillium Web ;
+    cursor: pointer;
 }
 .nav__menuItems{
     display: flex;
