@@ -44,10 +44,15 @@ label{
     border: none;
 }
 .register__msg{
-    margin-left: 25px;
+    margin-left: 1.2rem;
     cursor: pointer;
     font-weight: 600;
     text-decoration: underline;
+}
+.register__error{
+    color: red;
+    margin-bottom: 5px;
+    margin-left: 1.2rem;
 }
 @media (max-width:58em){
     .register{
