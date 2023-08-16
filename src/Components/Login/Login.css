@@ -35,13 +35,19 @@ label{
 .login__btn{
     padding: 8px 12px 8px 12px;
     border-radius: 5px;
-    font-family: 600;
     margin-bottom: 1.2rem;
+    font-family: 600;
     cursor: pointer;
     color: #fff;
     background-color: #001F3F;
     outline: none;
     border: none;
+}
+.login__msg{
+    margin-left: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: underline;
 }
 @media (max-width:58em){
     .login{
