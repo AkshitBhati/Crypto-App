@@ -1,0 +1,62 @@
+.register{
+    border: 1px solid black;
+    width: 30%;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    color: #001F3F;
+}
+.register__heading{
+    text-align: center;
+    font-family: Titillium Web;
+}
+.register__form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+input{
+    padding: 5px;
+    width: 80%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+label{
+    margin-left: 15px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.register__btn--container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;    
+}
+.register__btn{
+    padding: 8px 12px 8px 12px;
+    border-radius: 5px;
+    margin-bottom: 1.2rem;
+    font-family: 600;
+    cursor: pointer;
+    color: #fff;
+    background-color: #001F3F;
+    outline: none;
+    border: none;
+}
+.register__msg{
+    margin-left: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: underline;
+}
+@media (max-width:58em){
+    .register{
+        width: 60%;
+    }
+}
+
+@media (max-width:44em){
+    .register{
+        width: 70%;
+    }
+}
