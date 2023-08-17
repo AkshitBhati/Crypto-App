@@ -13,7 +13,10 @@ const Navbar = () => {
     
   auth.onAuthStateChanged((user) => {
     if(user){
-      setUserName(user.displayName)
+      const fullName = user.displayName
+      const nameParts = fullName.split(" ")
+      const firstName = nameParts[0]
+      setUserName(firstName)
     }
     else{
       setUserName("")
