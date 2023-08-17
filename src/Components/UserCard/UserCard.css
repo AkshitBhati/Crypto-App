@@ -1,0 +1,41 @@
+.userCard{
+    border: 1px solid white;
+    width: 40%;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+
+}
+.userCard__image{
+    
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.userCard__btn{
+    padding: 5px;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 1.8rem;
+    padding: 5px;
+    font-size: 18px;
+    font-family: Titillium Web;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    background-color:#001F3F ;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.userCard__name{
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 25px;
+    font-family: Titillium Web;
+}

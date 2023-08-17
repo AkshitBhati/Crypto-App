@@ -1,32 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import "./Navbar.css"
 import { useNavigate } from 'react-router-dom'
-import { auth } from '../../Config'
-import { toast } from 'react-hot-toast'
 
-const Navbar = () => {
-  //FUNCTION FOR DISPLAYING THE LOGGEDIN USER NAME
-  const [userName, setUserName] = useState("")
-
- useEffect(() => {
-  try{
-    
-  auth.onAuthStateChanged((user) => {
-    if(user){
-      const fullName = user.displayName
-      const nameParts = fullName.split(" ")
-      const firstName = nameParts[0]
-      setUserName(firstName)
-    }
-    else{
-      setUserName("")
-    }
-  })
-} catch(err){
-  
-  toast.error("Please Login")
-}
- }) 
+const Navbar = ({userName}) => {
   
   //Implementing OnClick Handlers to navigate 
   const navigate = useNavigate()
@@ -42,6 +18,7 @@ const Navbar = () => {
   const homeHandler = () => {
     navigate('/')
   }
+  console.log(userName)
   return (
     <header >
         <div className='nav__name'>
