@@ -29,8 +29,10 @@ label{
 }
 .login__btn--container{
     display: flex;
-    justify-content: center;
+    flex-direction:column;
+    margin: auto;
     margin-top: 1rem;    
+    width: 70%;
 }
 .login__btn{
     padding: 8px 12px 8px 12px;
@@ -44,10 +46,16 @@ label{
     border: none;
 }
 .login__msg{
-    margin-left: 25px;
+    margin-left: 1.2rem;
     cursor: pointer;
     font-weight: 600;
     text-decoration: underline;
+    
+}
+.login__error{
+    color: red;
+    margin-left: 1.2rem;
+    margin-bottom: 0.5rem
 }
 @media (max-width:58em){
     .login{

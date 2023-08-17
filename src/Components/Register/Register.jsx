@@ -67,6 +67,7 @@ console.log(user)
            {/* For Error Handling */}
 
            {err && <p className="register__error">{err}</p>}
+           
            <p className='register__msg' onClick={loginHandler}>Have an account?Login?</p>
        </form>
        <div className='register__btn--container'>

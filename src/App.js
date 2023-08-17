@@ -9,6 +9,7 @@ import Home from './Pages/Home'
 const App = () => {
   return (
     <Router>
+      {/* Toaster for toast notification */}
       <Toaster
         position="top-center"
         toastOptions={{
@@ -21,6 +22,7 @@ const App = () => {
           },
         }}
       />
+
     <Navbar />
     <Routes >
       <Route path='/' element={<Home />}/>
