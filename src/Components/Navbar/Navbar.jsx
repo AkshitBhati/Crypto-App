@@ -32,7 +32,12 @@ const Navbar = () => {
   const navigate = useNavigate()
 
   const loginHandler = () => {
-    navigate("/login")
+    if(userName){
+      navigate("/usercard")
+    }
+    else{
+      navigate("/login")
+    }
   }
   const homeHandler = () => {
     navigate('/')

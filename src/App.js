@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Login from './Components/Login/Login'
 import Register from "./Components/Register/Register"
 import Home from './Pages/Home'
+import UserCard from './Components/UserCard/UserCard';
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
       <Route path='/' element={<Home />}/>
       <Route path='/login' element={<Login />}/>
       <Route path='/register' element={<Register />}/>
+      <Route path='/usercard' element={<UserCard />}/>
     </Routes>
     </Router>
   )
