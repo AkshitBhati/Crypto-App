@@ -15,6 +15,7 @@ const UserCard = ({ name }) => {
           navigate('/')
       }).catch(err => toast.error("logout failed")) 
   } 
+  
   return (
     <div className='userCard'>
         <img src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745" alt="" className='userCard__image'/>

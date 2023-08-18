@@ -37,7 +37,6 @@ const Login = () => {
             } else{
             setErr("User not found")  
             }
-            // console.log(error)
           })
           
       }
