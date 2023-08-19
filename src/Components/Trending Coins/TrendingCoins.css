@@ -1,0 +1,23 @@
+.trendingCoins{
+    display:flex;
+    overflow-x: scroll;
+    margin-bottom: 1rem;
+}
+.trendingCoins__img{
+    height: 150px;
+    /* margin:10px ; */
+}
+
+/* Hide the scrollbar */
+::-webkit-scrollbar {
+    width: 0.5em; /* Set a width to trigger the pseudo-element */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Make the thumb transparent */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent; /* Make the track transparent */
+  }
+  
