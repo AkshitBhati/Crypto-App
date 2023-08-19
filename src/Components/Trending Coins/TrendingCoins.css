@@ -10,14 +10,14 @@
 
 /* Hide the scrollbar */
 ::-webkit-scrollbar {
-    width: 0.5em; /* Set a width to trigger the pseudo-element */
+    width: 0.5em; 
   }
   
   ::-webkit-scrollbar-thumb {
-    background-color: transparent; /* Make the thumb transparent */
+    background-color: transparent; 
   }
   
   ::-webkit-scrollbar-track {
-    background-color: transparent; /* Make the track transparent */
+    background-color: transparent; 
   }
   
