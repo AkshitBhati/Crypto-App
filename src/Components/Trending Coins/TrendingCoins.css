@@ -5,17 +5,31 @@
 }
 .trendingCoins__heading{
   color: #fff;
-  margin-top: 5px;
-text-align: center;
-border: 1px solid ;
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: Titillium Web;
 }
 .trendingCoins__wrapper{
   margin-top: 3rem;
+  border: 1px solid black;
+  background-color: #fff;
+  margin: 15px;
+  padding:10px 15px 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 .trendingCoins__img{
-    height: 150px;
+    height: 120px;
     margin: 10px;
     
+}
+h4{
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Titillium Web;
+  font-size: 20px;
+  
 }
 
 /* Hide the scrollbar */
