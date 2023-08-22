@@ -17,7 +17,9 @@ const TrendingCoins = () => {
         fetchTendingCoins()
     }, [])
   return (
-    <div className='trendingCoins'>
+    <>
+        <h1 className='trendingCoins__heading'>Trending Coins</h1>
+        <div className='trendingCoins'>
         {
             coinsData.map((coins) => (
                 <div key={coins.id} className='trendingCoins__wrapper'>
@@ -26,7 +28,8 @@ const TrendingCoins = () => {
                 </div>
             ))
         }
-    </div>
+        </div>
+     </>
   )
 }
 
